@@ -44,6 +44,9 @@ function create ()
     platforms.create(600, 400, 'ground');
     platforms.create(50, 250, 'ground');
     platforms.create(750, 220, 'ground');
+    
+    //створює нову групу статичної фізики
+    platforms = this.physics.add.staticGroup();
 }
 
 function update ()
